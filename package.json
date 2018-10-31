@@ -1,0 +1,21 @@
+{
+  "name": "react-native-hq-components",
+  "version": "1.0.0",
+  "description": "HQ Rentals Custom Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.1",
+    "lodash.times": "^4.3.2",
+    "prop-types": "^15.5.8"
+  },
+  "keywords": [
+    "react-native",
+    "components",
+    "hqrentals"
+  ],
+  "author": "Miguel Faggioni",
+  "license": "ISC"
+}
