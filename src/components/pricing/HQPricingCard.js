@@ -66,9 +66,8 @@ const PricingCard = props => {
                         </Text>
                     );
                 })}
-
                 <Button
-                    title={button.title}
+                    title={ button.title }
                     buttonStyle={StyleSheet.flatten([
                         styles.button,
                         button.buttonStyle,
