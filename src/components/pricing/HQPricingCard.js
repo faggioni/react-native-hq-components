@@ -9,7 +9,7 @@ import Text from '../text/Text';
 import Button from '../buttons/Button';
 import Icon from '../icons/Icon';
 
-const PricingCard = props => {
+const HQPricingCard = props => {
     const {theme, ...rest} = props;
 
     const {
@@ -169,5 +169,5 @@ const styles = {
     },
 };
 
-export {PricingCard};
-export default withTheme(PricingCard, 'PricingCard');
+export {HQPricingCard};
+export default withTheme(HQPricingCard, 'HQPricingCard');
