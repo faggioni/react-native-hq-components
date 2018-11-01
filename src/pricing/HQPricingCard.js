@@ -160,4 +160,4 @@ const styles = {
 };
 
 export { HQPricingCard };
-export default withTheme(HQPricingCard, 'PricingCard');
+export default withTheme(HQPricingCard, 'HQPricingCard');
