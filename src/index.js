@@ -6,7 +6,7 @@
 /**
  * Components
  */
-import PricingCard from './pricing/PricingCard';
+import HQPricingCard from './components/pricing/HQPricingCard';
 
 // helpers
 import { colors, ThemeProvider, ThemeConsumer, withTheme } from './config';
@@ -14,7 +14,7 @@ import getIconType, { registerCustomIconType } from './helpers/getIconType';
 import normalize from './helpers/normalizeText';
 
 export {
-    PricingCard,
+    HQPricingCard,
     colors,
     getIconType,
     registerCustomIconType,
