@@ -6,12 +6,12 @@ import { create } from 'react-test-renderer';
 import theme from '../../config/theme';
 import { ThemeProvider } from '../../config';
 
-import ThemedPricingCard, { PricingCard } from '../PricingCard';
+import ThemedPricingCard, { HQPricingCard } from '../HQPricingCard';
 
 describe('PricingCard component', () => {
   it('should render without issues', () => {
     const component = shallow(
-      <PricingCard
+      <HQPricingCard
         theme={theme}
         info={['1 User', 'Basic Support', 'All Core Features']}
         button={{ title: 'GET STARTED', icon: 'flight-takeoff' }}
