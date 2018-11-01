@@ -66,17 +66,6 @@ const HQPricingCard = props => {
             </Text>
           );
         })}
-
-        <Button
-          title={button.title}
-          buttonStyle={StyleSheet.flatten([
-            styles.button,
-            button.buttonStyle,
-            { backgroundColor: color },
-          ])}
-          onPress={onButtonPress}
-          icon={<Icon name={button.icon} size={15} color="white" />}
-        />
       </View>
     </View>
   );
