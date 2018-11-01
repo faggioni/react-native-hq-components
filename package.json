@@ -1,6 +1,6 @@
 {
   "name": "react-native-hq-components",
-  "version": "0.1.5",
+  "version": "0.1.6-0",
   "description": "HQ Rentals Custom Components",
   "main": "src/index.js",
   "scripts": {
