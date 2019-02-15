@@ -338,7 +338,7 @@ const styles =  StyleSheet.create({
     }
 });
 
-StepIndicator.propTypes = {
+HQStepIndicator.propTypes = {
     currentPosition: PropTypes.number,
     stepCount: PropTypes.number,
     customStyles: PropTypes.object,
@@ -348,7 +348,7 @@ StepIndicator.propTypes = {
     renderStepIndicator: PropTypes.func,
 };
 
-StepIndicator.defaultProps = {
+HQStepIndicator.defaultProps = {
     currentPosition: 0,
     stepCount: 5,
     customStyles: {},
