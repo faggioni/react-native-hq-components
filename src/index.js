@@ -28,7 +28,7 @@ import Rating from './rating/Rating';
 import Header from './header/Header';
 import HQPricingCard from './pricing/HQPricingCard';
 import Tooltip from './tooltip/Tooltip';
-
+import HQStepIndicator from './stepsindicators/HQStepIndicator';
 // helpers
 import Text from './text/Text';
 import { colors, ThemeProvider, ThemeConsumer, withTheme } from './config';
@@ -60,6 +60,7 @@ export {
     Rating,
     Header,
     Overlay,
+    HQStepIndicator,
     ThemeProvider,
     ThemeConsumer,
     withTheme,
