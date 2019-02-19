@@ -1,7 +1,3 @@
-// UI references
-// https://ionicframework.com/docs/components/#buttons
-// https://material.io/guidelines/components/buttons.html#buttons-raised-buttons
-// https://material.angularjs.org/latest/demo/button
 
 // Core
 import Button from './buttons/Button';
@@ -29,6 +25,7 @@ import Header from './header/Header';
 import HQPricingCard from './pricing/HQPricingCard';
 import Tooltip from './tooltip/Tooltip';
 import HQStepIndicator from './stepsindicators/HQStepIndicator';
+import HQStepIndicatorFixed from './stepsindicators/HQStepIndicatorFixed';
 // helpers
 import Text from './text/Text';
 import { colors, ThemeProvider, ThemeConsumer, withTheme } from './config';
@@ -61,6 +58,7 @@ export {
     Header,
     Overlay,
     HQStepIndicator,
+    HQStepIndicatorFixed,
     ThemeProvider,
     ThemeConsumer,
     withTheme,
