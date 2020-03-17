@@ -37,7 +37,9 @@ export default class HQStepIndicator extends Component {
             labelColor: '#000000',
             labelSize: 13,
             labelAlign: 'flex-start',
-            currentStepLabelColor: '#4aae4f'
+            currentStepLabelColor: '#4aae4f',
+            stepLabel: { labelAlign: 'left' },
+            stepLabelItem: { flex: 1, flexDirection: 'row', justifyContent: 'flex-start' },
         };
         const customStyles = Object.assign(defaultStyles, props.customStyles);
 
@@ -195,9 +197,9 @@ export default class HQStepIndicator extends Component {
             return (
                 <TouchableWithoutFeedback style={styles.stepLabelItem} key={index}
                                           onPress={() => this.stepPressed(index)}>
-                    <View style={styles.stepLabelItem}>
+                    <View style={[styles.stepLabelItem]}>
                         <Text
-                            style={[styles.stepLabel, selectedStepLabelStyle, {fontSize: this.state.customStyles.labelSize}]}>
+                            style={[styles.stepLabel,{ textAlign: 'left' }, this.props.customStyles.stepLabel, this.props.customStyles.stepLabelItem, selectedStepLabelStyle, {fontSize: this.state.customStyles.labelSize}]}>
                             {label}
                         </Text>
                     </View>
