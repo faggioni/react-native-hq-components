@@ -60,7 +60,6 @@ export default class HQStepIndicatorFixed extends Component {
     render() {
         const { labels, direction } = this.props;
         this.props.currentPosition = this.props.numberofStepsCompletedByDefault - 1;
-        console.log(this.props.currentPosition, 'render');
         return (
             <View style={[styles.container, direction === 'vertical' ? {flexDirection: 'row', flex:1} : {flexDirection: 'column'}]}>
                 {this.state.width !== 0 && this.renderProgressBarBackground()}
