@@ -1,6 +1,6 @@
 {
     "name": "react-native-hq-components",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "description": "HQ Rentals Custom Components",
     "main": "src/index.js",
     "scripts": {
@@ -49,6 +49,6 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Faggioni/react-native-hq-components"
+        "url": "https://github.com/faggioni/react-native-hq-components"
     }
 }
